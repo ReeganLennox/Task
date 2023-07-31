@@ -19,11 +19,7 @@ public class Test {
 		WebElement txtusername = driver.findElement(By.id("email"));
 		txtusername.sendKeys("dbhss.reegan@gmail.com");
 		
-		WebElement txtpassword= driver.findElement(By.id("pass"));
-		txtpassword.sendKeys("Reeganjava1!");
 		
-		WebElement btnLogin= driver.findElement(By.xpath("//button[@value='login']"));
-		btnLogin.click();
 	}
 
 }
